@@ -1,7 +1,6 @@
 # Specify the provider and access details
 provider "aws" {
   region = "${var.aws_region}"
-  shared_credentials_file = "/home/user/.aws/credentials"
 }
 
 provider "archive" {}
